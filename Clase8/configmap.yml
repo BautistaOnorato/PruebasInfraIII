@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-html-configmap
+data:
+  index.html:
+    <html>
+      <h1>Hola!</h1>
+      </br>
+      <h1>Este index esta definido desde un Config map</h1>
+    </html>
