@@ -13,7 +13,7 @@ spec:
         app: clase8-mesa
     spec:
       containers:
-        - name: bulletin_board
+        - name: bulletin-board
           image: bautionorato/bulletin_board:1.0.0
           ports:
             - containerPort: 8080
