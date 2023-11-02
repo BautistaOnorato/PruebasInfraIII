@@ -9,7 +9,8 @@ spec:
       app: mi-app
   template:
     metadata:
-      labels: mi-app
+      labels: 
+        app: mi-app
     spec:
       containers:
         - name: nginx
