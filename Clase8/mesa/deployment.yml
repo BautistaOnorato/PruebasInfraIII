@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clase8-deployment
+spec:
+  spec:
+    containers:
+      - name: bulletin_board
+        image: bautionorato/bulletin_board:1.0.0
+        ports:
+          - containerPort: 8080
