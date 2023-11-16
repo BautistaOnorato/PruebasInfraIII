@@ -6,7 +6,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: php-apache
+      run: php-apache
   template:
     metadata:
       labels:
@@ -22,3 +22,7 @@ spec:
             cpu: 200m
         ports:
         - containerPort: 80
+
+
+#The Deployment "php-apache" is invalid: spec.template.metadata.labels: 
+#Invalid value: map[string]string{"run":"php-apache"}: `selector` does not match template `labels`
